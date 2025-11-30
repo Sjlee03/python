@@ -1,0 +1,5 @@
+file = open('C:/python/test.txt', 'r')
+result = file.read()
+print('type of result:', type(result))
+print('result :', result)
+file.close()
